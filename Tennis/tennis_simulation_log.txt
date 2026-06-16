@@ -1,0 +1,37 @@
+======================================================================
+REAL-IMAGINARY DUALITY IN TENNIS (ATP-CALIBRATED)
+Delta = 0.22 (Serve 76%, Return 32% at 54%)
+Critical points: BP, GP, Deuce only
+Lambda range: 0.00 ~ 0.15 (fine-tuned)
+======================================================================
+Running λ=0.00 (5000 matches/point)...
+Running λ=0.05 (5000 matches/point)...
+Running λ=0.10 (5000 matches/point)...
+Running λ=0.15 (5000 matches/point)...
+Running λ=0.20 (5000 matches/point)...
+
+======================================================================
+MATCH WIN RATES AT 54% POINT-WIN RATE
+======================================================================
+λ = 0.00  →  81.48%
+λ = 0.05  →  86.40%
+λ = 0.10  →  89.72%
+λ = 0.15  →  93.68%
+λ = 0.20  →  96.10%
+
+======================================================================
+ERROR-POSITION DETERMINISM (FIXED TOTAL 54%)
+======================================================================
+λ = +0.00  →  Match win rate = 81.76%
+λ = +0.10  →  Match win rate = 90.52%
+λ = -0.10  →  Match win rate = 69.95%
+
+======================================================================
+CONCLUSION:
+With realistic ATP stats (serve 76%, return 32%),
+the model accurately captures Federer's 54%→80% phenomenon.
+The 'error-position determinism' shows that choking (-λ) on
+break points drastically reduces match wins despite same total points.
+======================================================================
+
+✅ Figure saved as 'tennis_duality_atp_calibrated.png'
